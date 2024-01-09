@@ -4,9 +4,13 @@ import Header from "./components/Header";
 export default function App() {
   return (
     <div className="top">
-      <Header />
-      <Highlights />
-      <Cards />
+      <div>
+        <Header />
+        <Highlights />
+      </div>
+      <div>
+        <Cards />
+      </div>
     </div>
   );
 }
