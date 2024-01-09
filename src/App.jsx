@@ -3,13 +3,15 @@ import Highlights from "./components/Highlights";
 import Header from "./components/Header";
 export default function App() {
   return (
-    <div className="top">
-      <div>
-        <Header />
-        <Highlights />
-      </div>
-      <div>
-        <Cards />
+    <div className="gogo">
+      <Header />
+      <div className="top">
+        <div className="ttop">
+          <Highlights />
+        </div>
+        <div className="tbot">
+          <Cards />
+        </div>
       </div>
     </div>
   );

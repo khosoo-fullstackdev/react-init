@@ -1,7 +1,7 @@
 import Card from "./Card";
 export default function Cards() {
   return (
-    <div>
+    <div className="cards">
       <Card />
     </div>
   );
